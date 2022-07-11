@@ -1,5 +1,5 @@
 # Reference https://www.youtube.com/watch?v=IumQX-mm20Y
-# Never use XCom for large files etc Pandas Dataframe. Its limited only 48Kb
+# Never use XCom for large files like Pandas Dataframe. Its limited only 48Kb
 
 from airflow import DAG
 from airflow.operators.python import PythonOperator
